@@ -1,12 +1,11 @@
-#Este es un comentario de una línea
 '''
-1. Programa que lea un nombre y muestre en pantalla un saludo
-Entrada:
-    name: string
-Salida:
-    message
-'''
+Programa que lee un nombre y muestra en pantalla un saludo
 
-name = input('Escribe tu nombre: ')
-message = "Hola "+ name + " XD"
-print(message)
+Entrada:
+    nombreUsuario str -> nombre
+Salida:
+    mensajeRetorno str -> mensaje
+'''
+nombre = input('Escribe tu nombre: ')
+mensaje = "Hola "+ nombre + " XD"
+print(mensaje)

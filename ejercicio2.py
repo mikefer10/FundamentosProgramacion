@@ -1,23 +1,22 @@
 '''
-Programa que calcule el area y el perímetro
-de u  rectángulo a partir de su base y cu altura
+Programa que calcula el area y el perímetro de un rectángulo
+
 Entradas:
-    base: integer
-    altura: intrger
+    baseRectangulo int -> b
+    alturaRectangulo int -> h
 Slidas:
-    perimetro: integer
-    area: integer 
+    perimetroRectangulo int -> p
+    areaRectangulo int -> a 
 '''
-base = input("Ingresa el valor de la base: ")
-base = int(base)
-altura = input("Ingresa el valor de la altura: ")
-altura = int(altura)
-area = base*altura
-perimetro = (base + altura) * 2
+b = int(input("Ingresa el valor de la base: "))
+h = int(input("Ingresa el valor de la altura: "))
+p = (b + h) * 2
+a = b*h
 #Mensaje forma 1
-mensaje = "La área es de " + str(area) + " y el perímetro es de " + str(perimetro)
+mensaje = "El área es de " + str(a) + " y el perímetro es de " + str(p)
 print(mensaje)
 #Mensaje forma 2
-mensaje = "La área es de ", area,  "y el perímetro es de ", perimetro
-print(mensaje)
+print("El área es de",a,"y el perímetro es de",p)
+
+
 
